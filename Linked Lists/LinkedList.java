@@ -44,7 +44,7 @@ public class LinkedList
         System.out.println("length: "+ length);
     }
 
-    public void append(int value)       //append(adding element)
+    public void append(int value)       //append(adding element in front)
     {
         Node newNode= new Node(value);
         if(length == 0)
